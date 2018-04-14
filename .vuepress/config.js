@@ -1,16 +1,15 @@
 module.exports = {
-	title: 'Hello VuePress',
-	description: 'Just playing around',
+	title: 'Managix',
+	description: 'The Best Facebook Ads Companion App',
 	themeConfig: {
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Guide', link: '/guide/' },
-			{ text: 'External', link: 'https://google.com' },
+			{ text: 'Documentation', link: '/documentation/' },
 		],
 		sidebar: [
 			'/',
-			'/page-a',
-			['/page-b', 'Explicit link text']
+			'/documentation/',
+			'/contact/',
 		]
 	}
 }
